@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'display': ['Inter']
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+
+<body class="bg-[#131313] text-[#f2f1ec] font-display max-w-[75%] mx-auto">
+    <header class="py-6 flex justify-between items-center">
+        <h1 class="text-4xl">advait.dev</h1>
+        <nav>
+            <ul class="text-sm flex items-center gap-8">
+                <li>
+                    <a href="#" class="underline">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Education</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Hobby</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="py-20 flex justify-between gap-8">
+            <div class="w-[50%]">
+                <h1 class="text-4xl">Hello! I am Advait.</h1>
+                <p class="py-4 text-xs"><span class="bg-[#f2f1ec] text-[#171717] py-1 px-3 rounded-full">Frontend
+                        Engineer</span></p>
+
+                <p class="py-4">I'm a committed web developer from Navi Mumbai, India with a strong interest in cyber
+                    security. My area
+                    of expertise is crafting
+                    modern and minimalist user-interfaces. I'm determined to be on top of the constantly changing
+                    digital
+                    scene.</p>
+            </div>
+            <div>
+                <img width="400px" src="/images/pfp.jpeg" alt="">
+            </div>
+        </div>
+        <div class="py-20">
+            <div class="grid grid-cols-4 gap-8">
+                <div class="col-span-1">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939]">
+                        <p class="text-sm font-semibold">Roll Number:</p>
+                        <h2 class="text-xl">23203A0025</h2>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939]">
+                        <p class="text-sm font-semibold">Course:</p>
+                        <h2 class="text-xl">CO2K-A</h2>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939]">
+                        <p class="text-sm font-semibold">Subject:</p>
+                        <h2 class="text-xl">Web Page Designing</h2>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939]">
+                        <p class="text-sm font-semibold">Department:</p>
+                        <h2 class="text-xl">Computer Engineering</h2>
+                    </div>
+                </div>
+                <div class="col-span-2">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939]">
+                        <p class="text-sm font-semibold">Teacher:</p>
+                        <h2 class="text-xl">Vidya Mandale</h2>
+                    </div>
+                </div>
+                <div class="col-span-2">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939]">
+                        <p class="text-sm font-semibold">HOD:</p>
+                        <h2 class="text-xl">Vijay Patil</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<!-- export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        'display': ['Poppins']
+      },
+    },
+  },
+  plugins: [],
+} -->
