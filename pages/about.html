@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'display': ['Inter']
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+
+<body class="bg-[#131313] text-[#f2f1ec] font-display ">
+    <header class="py-6 flex justify-between items-center max-w-[75%] mx-auto">
+        <h1 class="text-4xl">advait.dev</h1>
+        <nav>
+            <ul class="text-sm flex items-center gap-8">
+                <li>
+                    <a href="/" class="hover:underline">Home</a>
+                </li>
+                <li>
+                    <a href="/pages/about.html" class="underline">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Education</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Hobby</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="w-full py-10">
+            <img src="/images/about-hero.png" alt="">
+        </div>
+        <div class="max-w-[75%] mx-auto py-10 flex flex-col gap-8">
+            <h1 class="text-4xl font-bold">About Me</h1>
+            <div class="flex flex-col gap-4">
+                <p>I'm Advait Jadhav, web developer and cybersecurity enthusiast based in Navi Mumbai, currently
+                    pursuing
+                    diploma in Computer Engineering from Vidyalankar Polytechnic. My passion lies in creating
+                    user-friendly
+                    and visually appealing interfaces.</p>
+
+                <p>
+                    Outside of work, you can usually find me experimenting with new technologies, exploring the latest
+                    design trends, solving boxes on TryHackMe, or
+                    enjoying outdoor activities like football or just having a walk.
+                </p>
+
+                <p>
+                    Besides academics, I have a professional experience in the realm of web design and development of
+                    around
+                    5 months by now with 2 internships in my bag.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-[75%] mx-auto py-10 flex flex-col gap-8">
+            <h1 class="text-4xl font-bold">Experience</h1>
+            <div class="grid grid-cols-2 gap-8">
+                <div class="col-span-1">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939] flex flex-col">
+                        <img class="rounded-md w-auto h-[450px]" src="/images/wne3.png" alt="">
+                        <div class="py-6 flex flex-col gap-4 px-4">
+                            <h1 class="text-4xl font-semibold">WNE3</h1>
+                            <p class="text-xs"><span class="bg-[#f2f1ec] text-[#171717] py-1 px-3 rounded-full">Frontend
+                                    Engineer</span></p>
+                            <p>Duration: February 2024 - Present</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="bg-[#171717] p-3 rounded-md outline outline-[#393939] flex flex-col">
+                        <img class="rounded-md w-auto h-[450px]" src="/images/saladandtartine.png" alt="">
+                        <div class="py-6 flex flex-col gap-4 px-4">
+                            <h1 class="text-4xl font-semibold">Salad & Tartine</h1>
+                            <p class="text-xs"><span class="bg-[#f2f1ec] text-[#171717] py-1 px-3 rounded-full">Web
+                                    Developer</span></p>
+                            <p>Duration: October 2023 - December 2023 (3 months)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="max-w-[75%] mx-auto">
+        <div class="text-center py-20 ">
+            <ul class="flex gap-8 border-b pb-6 border-dashed">
+                <li>
+                    <a class="hover:underline" href="#">Certificate</a>
+                </li>
+                <li>
+                    <a class="hover:underline" href="#">Index</a>
+                </li>
+            </ul>
+
+            <div class="pt-6 flex justify-between items-center">
+                <p>© Advait. All Rights Reserved</p>
+                <div class="flex items-center gap-4">
+                    <a href="https://linkedin.com/in/777advait" class="hover:underline">LinkedIn</a>
+                    <a href="https://github.com/777advait" class="hover:underline">GitHub</a>
+                    <a href="https://0xastroo.medium.com" class="hover:underline">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<!-- export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        'display': ['Poppins']
+      },
+    },
+  },
+  plugins: [],
+} -->
